@@ -116,3 +116,13 @@ MODELS=(efl_no_cl entail2 crossfit unifew)
       year={2022},
 }
 ``` 
+
+
+## Helper file
+
+This helper file contains functions for common tasks in Natural Language Processing (NLP) projects. 
+It includes functionality to convert JSON data with multiple objects to TSV format, 
+remove unwanted columns from a TSV file, and manage GPU memory usage. Additionally, 
+it provides a script to compare labels extracted from JSON and TSV files, 
+calculating accuracy for evaluation purposes. 
+Use these functions to streamline data preprocessing and accuracy assessment in your NLP projects.

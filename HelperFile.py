@@ -3,7 +3,7 @@
 # import pandas as pd
 #
 # # Read the TSV file into a DataFrame
-# file_path = 'C:\\Users\\rajup\\Desktop\\ConEntail\\ConEntail\\raw_data\\gym\\glue-sst2\\_test.tsv'
+# file_path = '.\\raw_data\\gym\\glue-sst2\\_test.tsv'
 # df = pd.read_csv(file_path, sep='\t')
 #
 # # Remove the 'idx' column from the DataFrame
@@ -23,8 +23,8 @@
 # import json
 #
 # # Read JSON file and convert each object to TSV format
-# input_file_path = 'C:\\Users\\rajup\\Desktop\\ConEntail\\ConEntail\\raw_data\\gym\\glue-sst2\\_train.json'
-# output_file_path = 'C:\\Users\\rajup\\Desktop\\ConEntail\\ConEntail\\raw_data\\gym\\glue-sst2\\_train.tsv'
+# input_file_path = '.\\raw_data\\gym\\glue-sst2\\_train.json'
+# output_file_path = '.\\raw_data\\gym\\glue-sst2\\_train.tsv'
 #
 # with open(input_file_path, 'r', encoding='utf-8') as json_file:
 #     # Read JSON objects line by line
